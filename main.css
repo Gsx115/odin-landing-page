@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 header, footer {
     background-color: #1F2937;
 }
@@ -13,6 +17,7 @@ header, footer, .row {
 nav {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .nav-list {
@@ -26,17 +31,35 @@ nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    padding: 50px 0;
+}
+
+.hero div {
+    margin-right: 10px;
 }
 
 .hero h1 {
     font-size: 48px;
+    line-height: 48px;
     font-weight: bolder;
     color: #F9FAF8;
+    margin: 0;
+    padding: 0;
 }
 
 .hero p, .nav-list-item {
     font-size: 18px;
     color: #E5E7EB;
+    margin: 0;
+    padding: 0;
+}
+
+.hero p {
+    padding: 10px 0;
+}
+
+.hero img {
+    box-shadow: 0 0 5px rgba(255, 255, 255, .3);
 }
 
 .header-logo {
@@ -44,8 +67,23 @@ nav {
     color: #F9FAF8;
 }
 
+.btn {
+    padding: 5px 20px;
+    border-radius: 5px;
+}
+
 .call-to-action, .btn-primary {
     background-color: #3882F6;
+}
+
+.btn-primary {
+    color: #F9FAF8;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.border-white {
+    border: 3px solid #fff;
 }
 
 .row:first-child h2 {
