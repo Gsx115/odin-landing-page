@@ -2,6 +2,32 @@ header, footer {
     background-color: #1F2937;
 }
 
+a {
+    text-decoration: none;
+}
+
+header, footer, .row {
+    padding: 0 10%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 50%;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
 .hero h1 {
     font-size: 48px;
     font-weight: bolder;
@@ -22,13 +48,13 @@ header, footer {
     background-color: #3882F6;
 }
 
-body section:first-of-type h2 {
+.row:first-child h2 {
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
 }
 
-body section:nth-child(even) {
+.row:nth-child(odd) {
     background-color: #E5E7EB;
 }
 
