@@ -1,0 +1,40 @@
+header, footer {
+    background-color: #1F2937;
+}
+
+.hero h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.hero p, .nav-list-item {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.call-to-action, .btn-primary {
+    background-color: #3882F6;
+}
+
+body section:first-of-type h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+body section:nth-child(even) {
+    background-color: #E5E7EB;
+}
+
+blockquote {
+    font-size: 36px;
+    font-weight: 400;
+    font-style: italic;
+    color: #1F2937;
+}
