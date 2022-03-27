@@ -29,10 +29,7 @@ nav {
     list-style: none;
     display: flex;
     justify-content: space-between;
-}
-
-.nav-list {
-    flex-basis: 50%;
+    width: 50%;
 }
 
 .hero {
@@ -124,6 +121,10 @@ blockquote {
 figcaption {
     text-align: right;
     font-weight: bold;
+}
+
+.image-list-item {
+    width: 100px;
 }
 
 .image-list-item img {
